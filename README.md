@@ -1,4 +1,4 @@
-# OpenCode Implementer (0.2.0)
+# OpenCode Implementer (0.2.1)
 
 A Codex plugin: Codex discusses, investigates, plans and reviews; OpenCode
 Go writes code and runs automated checks. It asks for your Go model on first use
