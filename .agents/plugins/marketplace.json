@@ -1,0 +1,10 @@
+{
+  "name": "seif-local-plugins",
+  "interface": {"displayName": "Seif Local Plugins"},
+  "plugins": [{
+    "name": "opencode-implementer",
+    "source": {"source": "local", "path": "./plugins/opencode-implementer"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_USE"},
+    "category": "Developer Tools"
+  }]
+}

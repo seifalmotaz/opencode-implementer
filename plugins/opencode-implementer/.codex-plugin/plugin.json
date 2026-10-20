@@ -1,0 +1,15 @@
+{
+  "name": "opencode-implementer",
+  "version": "0.2.0",
+  "description": "Think, investigate, plan and review with Codex; delegate implementation and automated testing to OpenCode Go.",
+  "author": {"name": "Seif Almotaz"},
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenCode Implementer",
+    "shortDescription": "Codex plans. OpenCode implements and tests.",
+    "developerName": "Seif Almotaz",
+    "category": "Developer Tools",
+    "defaultPrompt": ["Use OpenCode Implementer for this chat: investigate and plan with me, then delegate implementation and automated tests to OpenCode Go."]
+  }
+}
