@@ -1,6 +1,6 @@
 {
-  "name": "seif-local-plugins",
-  "interface": {"displayName": "Seif Local Plugins"},
+  "name": "seifalmotaz",
+  "interface": {"displayName": "Seif Almotaz Plugins"},
   "plugins": [{
     "name": "opencode-implementer",
     "source": {"source": "local", "path": "./plugins/opencode-implementer"},

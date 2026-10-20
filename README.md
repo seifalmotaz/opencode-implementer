@@ -1,4 +1,4 @@
-# OpenCode Implementer (0.2.1)
+# OpenCode Implementer (0.2.2)
 
 A Codex plugin: Codex discusses, investigates, plans and reviews; OpenCode
 Go writes code and runs automated checks. It asks for your Go model on first use
@@ -15,7 +15,7 @@ Local (this directory):
 
 ```sh
 codex plugin marketplace add .
-codex plugin add opencode-implementer@seif-local-plugins
+codex plugin add opencode-implementer@seifalmotaz
 ```
 
 Public GitHub marketplace (planned public repo `seifalmotaz/opencode-implementer`;
@@ -23,7 +23,16 @@ available after publication):
 
 ```sh
 codex plugin marketplace add seifalmotaz/opencode-implementer
-codex plugin add opencode-implementer@seif-local-plugins
+codex plugin add opencode-implementer@seifalmotaz
+```
+
+Migrating from old marketplace `seif-local-plugins` (remove old first, in order):
+
+```sh
+codex plugin remove opencode-implementer@seif-local-plugins
+codex plugin marketplace remove seif-local-plugins
+codex plugin marketplace add seifalmotaz/opencode-implementer
+codex plugin add opencode-implementer@seifalmotaz
 ```
 
 If the marketplace name differs after publication, check
